@@ -1,3 +1,5 @@
+
+<style type="text/css">
 body{
 	background-color: lightblue;
 	font: inherit;
@@ -10,13 +12,14 @@ input{
 	background-color: black;
 }
 
-form{
-	float: inherit;
+.floated{
+	float: left;
 }
 
 div{
 	
 }
+</style>
 
 
 
