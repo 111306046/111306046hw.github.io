@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<script >
+
+	var n1, n2;
+
+    n1 = parseInt(window.prompt("Enter first integer"));
+    n2 = parseInt(window.prompt("Enter second integer"));
+
+    if(n1 > n2){
+    	document.body.style.backgroundColor = 'lightblue';
+    	document.writeln("<h1>"+n1+">"+n2)+"</h1>";
+    }
+
+    else if(n1 < n2){
+    	document.body.style.backgroundColor = 'lightgreen';
+    	document.writeln("<h1>"+n1+"<"+n2+"</h1>");
+    }
+
+    else if(n1 == n2){
+    	document.body.style.backgroundColor = 'lightyellow';
+    	document.writeln("<h1>"+n1+"=="+n2+"</h1>");
+    }
+
+
+
+</script>
+<p>
+	<input type="button" value="1st button" onclick="alert(n1)">
+	<input type="button" value="2nd button" onclick="alert(n2)">
+</p>
+    
+</body>
+</html>
